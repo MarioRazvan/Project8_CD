@@ -1,0 +1,9 @@
+P8 / P1 - UDP TELEMETRY MEASUREMENT
+Configured: 40 IoT hosts | UDP payload: 200 B | Rate: 1 Hz/host | 10 packets/host
+Site 1: h1-h20 -> dca (10.0.0.241); Site 2: h21-h40 -> dcb (10.0.0.242)
+Senders completed successfully: 40/40
+dca: hosts seen 20/20 | packets received 200/200 | packet loss 0.0% | mean one-way latency 83.401 ms | p50 50.05 ms | p95 220.683 ms
+  Example: host=h2 seq=1 bytes=200 timestamp_ns=1793390131303176581 received_ns=1793390131372212362 latency_ms=69.036
+dcb: hosts seen 20/20 | packets received 200/200 | packet loss 0.0% | mean one-way latency 63.285 ms | p50 37.121 ms | p95 274.668 ms
+  Example: host=h21 seq=1 bytes=200 timestamp_ns=1793390131632201251 received_ns=1793390131672070639 latency_ms=39.869
+Measurement note: sender and receiver clocks share the same emulated Linux VM clock.

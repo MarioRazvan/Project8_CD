@@ -1,0 +1,21 @@
+iperf3: interrupt - the server has terminated
+-----------------------------------------------------------
+Server listening on 5202 (test #1)
+-----------------------------------------------------------
+Accepted connection from 10.0.0.21, port 52800
+[  7] local 10.0.0.241 port 5202 connected to 10.0.0.21 port 52806
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-1.00   sec   384 KBytes  3.14 Mbits/sec                  
+[  7]   1.00-2.02   sec   640 KBytes  5.13 Mbits/sec                  
+[  7]   2.02-3.00   sec  1.12 MBytes  9.64 Mbits/sec                  
+[  7]   3.00-4.00   sec  1.38 MBytes  11.5 Mbits/sec                  
+[  7]   4.00-5.02   sec  1.38 MBytes  11.3 Mbits/sec                  
+[  7]   5.02-6.00   sec  1.25 MBytes  10.7 Mbits/sec                  
+[  7]   6.00-7.03   sec  2.50 MBytes  20.4 Mbits/sec                  
+[  7]   7.03-8.09   sec  4.00 MBytes  31.6 Mbits/sec                  
+[  7]   8.09-9.00   sec  4.38 MBytes  40.4 Mbits/sec                  
+[  7]   9.00-10.01  sec  4.88 MBytes  40.7 Mbits/sec                  
+[  7]  10.01-10.09  sec   512 KBytes  47.3 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  7]   0.00-10.09  sec  22.4 MBytes  18.6 Mbits/sec                  receiver

@@ -1,0 +1,22 @@
+P8 / P1 - BULK TCP iperf3
+Destinatie: dca (10.0.0.241)
+Durata demo: 10 secunde / scenariu activ
+Scenarii: 0, 2, 5 fluxuri TCP simultane
+
+=== BULK = 0 FLUXURI ===
+Niciun client iperf3 pornit (scenariul de baza).
+
+=== BULK = 2 FLUXURI ===
+h1 -> dca | TCP port 5201 | OK | 47.21 Mbit/s
+h21 -> dca | TCP port 5202 | OK | 18.59 Mbit/s
+Fluxuri reusite: 2/2
+Throughput agregat aproximativ: 65.81 Mbit/s
+
+=== BULK = 5 FLUXURI ===
+h1 -> dca | TCP port 5201 | OK | 181.83 Mbit/s
+h2 -> dca | TCP port 5202 | OK | 177.62 Mbit/s
+h3 -> dca | TCP port 5203 | OK | 46.14 Mbit/s
+h21 -> dca | TCP port 5204 | OK | 156.34 Mbit/s
+h22 -> dca | TCP port 5205 | OK | 69.19 Mbit/s
+Fluxuri reusite: 5/5
+Throughput agregat aproximativ: 631.11 Mbit/s
